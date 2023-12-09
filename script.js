@@ -24,8 +24,8 @@ function effectSkills(){
         skills_set[0].classList.add("responsiveDesign");
         skills_set[1].classList.add("htmlcss");
         skills_set[2].classList.add("cssFrame");
-        skills_set[3].classList.add("javascript");
-        skills_set[4].classList.add("designTool");
+        skills_set[3].classList.add("accessibility");
+        skills_set[4].classList.add("javascript");
         skills_set[5].classList.add("designTool");
         skills_set[6].classList.add("Communication");
         skills_set[7].classList.add("teamwork");
