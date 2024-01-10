@@ -5,18 +5,21 @@
     margin: 0;
     padding: 0;
 }
+/* Replace color theme #1e2326 to #08344e */
+/* Replace color theme #252A2E to #45708a */
 html{
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
 }
 /* MENU */
 .container-header{
-    background: #1e2326;
+    background: #08344e;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 99;
+    border-bottom: 1px solid #1CB698;
 }
 .container-header header{
     max-width: 1100px;
@@ -67,7 +70,7 @@ html{
 }
 .start .container-banner{
     padding: 20px;
-    background-color: #1e2326;
+    background-color: #08344e;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -107,7 +110,7 @@ html{
     background-color: #1CB698;
 }
 .about_me{
-    background-color: #1e2326;
+    background-color: #08344e;
     color: #fff;
     padding: 50px 20px;
 }
@@ -167,7 +170,7 @@ html{
 .about_me .fila .col .container-interests .interes{
     width: 100px;
     height: 100px;
-    background-color: #252A2E;
+    background-color:  #45708a;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -211,7 +214,7 @@ html{
 }
 /* SECCION S K I L L S */
 .skills{
-    background-color: #252A2E;
+    background-color:  #45708a;
     color: #fff;
     padding: 50px 20px;
 }
@@ -382,7 +385,7 @@ html{
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #1e2326;
+    background-color: #08344e;
     color: #fff;
     padding: 50px 20px;
 }
@@ -411,15 +414,15 @@ html{
     margin-bottom: 25px;
 }
 .curriculum .fila .left-side{
-    border-right: 2px solid #252A2E;
+    border-right: 2px solid  #45708a;
 }
 .curriculum .fila .derecha{
-    border-left: 2px solid #252A2E;
+    border-left: 2px solid  #45708a;
 }
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #252A2E;
+    background-color:  #45708a;
     position: relative;
 }
 .curriculum .fila .item h4{
@@ -488,7 +491,7 @@ html{
 }
 /* SECCION PORTFOLIO */
 .portfolio{
-    background-color: #252A2E;
+    background-color:  #45708a;
     color: #fff;
     padding: 50px 20px;
 }
@@ -548,7 +551,7 @@ html{
 /* SECCION contact */
 .contact{
     background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
+    background-color: #08344e;
     color: #fff;
     padding: 50px 0;
 }
@@ -576,7 +579,7 @@ html{
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color: #252A2E;
+    background-color:  #000;
     color: #fff;
     font-size: 18px;
 }
@@ -613,7 +616,7 @@ html{
 .contact .col .info{
     position: absolute;
     top: 50%;
-    background-color: #252A2E;
+    background-color:  #45708a;
     padding: 20px;
     max-swidth: 350px;
     left: 50%;
@@ -632,7 +635,7 @@ html{
     margin-right: 20px;
 }
 footer{
-    background-color: #252A2E;
+    background-color:  #45708a;
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
@@ -682,7 +685,7 @@ footer .above{
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: #252A2E;
+        background-color:  #45708a;
         width: 180px;
     }
     nav.responsive ul{
