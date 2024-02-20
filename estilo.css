@@ -304,7 +304,14 @@ html{
     0%{width: 0%;}
     100%{width: 60%;}
 }
-
+.skills .skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+@keyframes react {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
 .skills .skill .cssFrame{
     width: 0%;
     animation: 2s cssFrame forwards;
@@ -380,6 +387,14 @@ html{
     animation: 2s trainer forwards;
 }
 @keyframes trainer {
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+.skills .skill .event{
+    width: 0%;
+    animation: 2s event forwards;
+}
+@keyframes event {
     0%{width: 0%;}
     100%{width: 95%;}
 }

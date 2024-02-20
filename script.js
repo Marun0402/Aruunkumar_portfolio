@@ -25,14 +25,16 @@ function effectSkills(){
         skills_set[1].classList.add("htmlcss");
         skills_set[2].classList.add("cssFrame");
         skills_set[3].classList.add("accessibility");
-        skills_set[4].classList.add("javascript");
-        skills_set[5].classList.add("designTool");
-        skills_set[6].classList.add("Communication");
-        skills_set[7].classList.add("teamwork");
-        skills_set[8].classList.add("creativity");
-        skills_set[9].classList.add("dedication");
-        skills_set[10].classList.add("team");
-        skills_set[11].classList.add("trainer");
+        skills_set[4].classList.add("react");
+        skills_set[5].classList.add("javascript");
+        skills_set[6].classList.add("designTool");
+        skills_set[7].classList.add("Communication");
+        skills_set[8].classList.add("teamwork");
+        skills_set[9].classList.add("creativity");
+        skills_set[10].classList.add("dedication");
+        skills_set[11].classList.add("team");
+        skills_set[12].classList.add("trainer");
+        skills_set[13].classList.add("event");
     }
 }
 
